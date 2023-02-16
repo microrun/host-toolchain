@@ -1,0 +1,30 @@
+archs:
+  - x86_64
+  - aarch64
+contents:
+  repositories:
+    - https://dl-cdn.alpinelinux.org/alpine/v3.17/main
+  packages:
+    - ca-certificates-bundle
+    - alpine-baselayout-data
+    - bash
+    - bison
+    - coreutils
+    - diffutils
+    - findutils
+    - gawk
+    - gcc
+    - grep
+    - gzip
+    - m4
+    - make
+    - patch
+    - perl
+    - python3
+    - sed
+    - tar
+    - texinfo
+    - xz
+
+entrypoint:
+  command: /bin/sh -l
