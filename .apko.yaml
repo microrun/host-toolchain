@@ -14,6 +14,9 @@ contents:
     - findutils
     - gawk
     - gcc
+    - g++
+    - gmp
+    - mpfr
     - libc-dev
     - grep
     - gzip
